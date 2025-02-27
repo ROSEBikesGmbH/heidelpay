@@ -61,6 +61,20 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ROSEBikesGmbH/heidelpay-php-message-code-mapper.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ROSEBikesGmbH/heidelpay-php-basket-api.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/ROSEBikesGmbH/heidelpay-php-payment-api.git"
+        }
+    ],
     "scripts": {
         "cs-check": "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/",
         "cs-fix": "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/ tests/",
